@@ -1,0 +1,1 @@
+/home/luis/catkin_ws/devel/.private/beginner_tutorials/share/common-lisp/ros/beginner_tutorials/srv/_package_tipo_servicio.lisp

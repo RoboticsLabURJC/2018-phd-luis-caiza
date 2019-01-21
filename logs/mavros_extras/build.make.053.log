@@ -1,0 +1,6 @@
+[  4%] [32m[1mLinking CXX executable /home/luis/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher[0m
+[  9%] [32m[1mLinking CXX executable /home/luis/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/copter_visualization[0m
+[ 14%] [32m[1mLinking CXX shared library /home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so[0m
+[ 19%] Built target servo_state_publisher
+[ 23%] Built target copter_visualization
+[100%] Built target mavros_extras

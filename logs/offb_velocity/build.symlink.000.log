@@ -1,0 +1,4 @@
+Symlinking /home/luis/catkin_ws/devel/share/offb_velocity/cmake/offb_velocityConfig-version.cmake
+Symlinking /home/luis/catkin_ws/devel/share/offb_velocity/cmake/offb_velocityConfig.cmake
+Symlinking /home/luis/catkin_ws/devel/lib/offb_velocity/node
+Symlinking /home/luis/catkin_ws/devel/lib/pkgconfig/offb_velocity.pc

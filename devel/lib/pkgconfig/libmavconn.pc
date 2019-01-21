@@ -1,0 +1,1 @@
+/home/luis/catkin_ws/devel/.private/libmavconn/lib/pkgconfig/libmavconn.pc
