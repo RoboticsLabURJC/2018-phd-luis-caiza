@@ -1,4 +1,7 @@
 # 2018-phd-luis-caiza
+# Testing setpoint_position and setpoint_velocity topics.
+Following the instructions in STAGE 3 from https://jderobot.org/Drones , we can obtain this video
+https://www.youtube.com/watch?v=2jksI-S3ojY
 # MAVROS Offboard control example
 In this case, A node (offb_node.cpp) is created in order to test the OFFBOARD mode. In the following link 
 https://www.youtube.com/watch?v=FIZnrFnFLJk
