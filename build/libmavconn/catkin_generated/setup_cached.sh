@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/luis/catkin_ws/devel/.private/libmavconn:$CMAKE_PREFIX_PATH"
-export PWD="/home/luis/catkin_ws/build/libmavconn"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/luis/catkin_ws/devel/.private/libmavconn/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/luis/catkin_ws/src/mavros/libmavconn:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn:$CMAKE_PREFIX_PATH"
+export PWD="/home/luis/2018-phd-luis-caiza/build/libmavconn"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/luis/2018-phd-luis-caiza/src/mavros/libmavconn:$ROS_PACKAGE_PATH"

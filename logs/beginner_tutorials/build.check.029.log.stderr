@@ -1,5 +1,0 @@
-[31m[1mCMake Error[0m at /home/luis/catkin_ws/src/beginner_tutorials/CMakeLists.txt:141 (rosbuild_add_executable):
-  Unknown CMake command "rosbuild_add_executable".
-
-
-make: *** [cmake_check_build_system] Error 1

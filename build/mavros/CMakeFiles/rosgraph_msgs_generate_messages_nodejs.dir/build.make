@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavros/mavros
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavros/mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/mavros
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/mavros
 
 # Utility rule file for rosgraph_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/luis/catkin_ws/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/mavros/mavros /home/luis/catkin_ws/src/mavros/mavros /home/luis/catkin_ws/build/mavros /home/luis/catkin_ws/build/mavros /home/luis/catkin_ws/build/mavros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/mavros/mavros /home/luis/2018-phd-luis-caiza/src/mavros/mavros /home/luis/2018-phd-luis-caiza/build/mavros /home/luis/2018-phd-luis-caiza/build/mavros /home/luis/2018-phd-luis-caiza/build/mavros/CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/depend
 

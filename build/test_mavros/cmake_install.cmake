@@ -1,8 +1,8 @@
-# Install script for directory: /home/luis/catkin_ws/src/mavros/test_mavros
+# Install script for directory: /home/luis/2018-phd-luis-caiza/src/mavros/test_mavros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luis/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/luis/2018-phd-luis-caiza/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,93 +44,93 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/_setup_util.py")
+   "/home/luis/2018-phd-luis-caiza/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE PROGRAM FILES "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE PROGRAM FILES "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/env.sh")
+   "/home/luis/2018-phd-luis-caiza/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE PROGRAM FILES "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE PROGRAM FILES "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/setup.bash")
+   "/home/luis/2018-phd-luis-caiza/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE FILE FILES "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/setup.sh")
+   "/home/luis/2018-phd-luis-caiza/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE FILE FILES "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/setup.zsh")
+   "/home/luis/2018-phd-luis-caiza/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE FILE FILES "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/.rosinstall")
+   "/home/luis/2018-phd-luis-caiza/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE FILE FILES "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/test_mavros.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/test_mavros.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_mavros/cmake" TYPE FILE FILES
-    "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/test_mavrosConfig.cmake"
-    "/home/luis/catkin_ws/build/test_mavros/catkin_generated/installspace/test_mavrosConfig-version.cmake"
+    "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/test_mavrosConfig.cmake"
+    "/home/luis/2018-phd-luis-caiza/build/test_mavros/catkin_generated/installspace/test_mavrosConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_mavros" TYPE FILE FILES "/home/luis/catkin_ws/src/mavros/test_mavros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_mavros" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/src/mavros/test_mavros/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/test_mavros" TYPE PROGRAM FILES "/home/luis/catkin_ws/src/mavros/test_mavros/scripts/setpoint_position_demo")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/test_mavros" TYPE PROGRAM FILES "/home/luis/2018-phd-luis-caiza/src/mavros/test_mavros/scripts/setpoint_position_demo")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -140,12 +140,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_sitl_test.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/luis/catkin_ws/devel/.private/test_mavros/lib/libmavros_sitl_test.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/luis/2018-phd-luis-caiza/devel/.private/test_mavros/lib/libmavros_sitl_test.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_sitl_test.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_sitl_test.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_sitl_test.so"
-         OLD_RPATH "/home/luis/catkin_ws/devel/.private/mavros/lib:/home/luis/catkin_ws/devel/.private/libmavconn/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/luis/2018-phd-luis-caiza/devel/.private/mavros/lib:/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libmavros_sitl_test.so")
@@ -160,12 +160,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_mavros/sitl_test_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/test_mavros" TYPE EXECUTABLE FILES "/home/luis/catkin_ws/devel/.private/test_mavros/lib/test_mavros/sitl_test_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/test_mavros" TYPE EXECUTABLE FILES "/home/luis/2018-phd-luis-caiza/devel/.private/test_mavros/lib/test_mavros/sitl_test_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_mavros/sitl_test_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_mavros/sitl_test_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_mavros/sitl_test_node"
-         OLD_RPATH "/home/luis/catkin_ws/devel/.private/test_mavros/lib:/home/luis/catkin_ws/devel/.private/mavros/lib:/home/luis/catkin_ws/devel/.private/libmavconn/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/luis/2018-phd-luis-caiza/devel/.private/test_mavros/lib:/home/luis/2018-phd-luis-caiza/devel/.private/mavros/lib:/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/test_mavros/sitl_test_node")
@@ -174,12 +174,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_mavros/launch" TYPE DIRECTORY FILES "/home/luis/catkin_ws/src/mavros/test_mavros/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/test_mavros/launch" TYPE DIRECTORY FILES "/home/luis/2018-phd-luis-caiza/src/mavros/test_mavros/launch/")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/luis/catkin_ws/build/test_mavros/gtest/cmake_install.cmake")
+  include("/home/luis/2018-phd-luis-caiza/build/test_mavros/gtest/cmake_install.cmake")
 
 endif()
 
@@ -191,5 +191,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luis/catkin_ws/build/test_mavros/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/luis/2018-phd-luis-caiza/build/test_mavros/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

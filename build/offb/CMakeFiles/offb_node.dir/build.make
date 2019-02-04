@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/offb
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/offb
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/offb
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/offb
 
 # Include any dependencies generated for this target.
 include CMakeFiles/offb_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/offb_node.dir/progress.make
 include CMakeFiles/offb_node.dir/flags.make
 
 CMakeFiles/offb_node.dir/src/offb_node.cpp.o: CMakeFiles/offb_node.dir/flags.make
-CMakeFiles/offb_node.dir/src/offb_node.cpp.o: /home/luis/catkin_ws/src/offb/src/offb_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/offb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/offb_node.dir/src/offb_node.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/offb_node.dir/src/offb_node.cpp.o -c /home/luis/catkin_ws/src/offb/src/offb_node.cpp
+CMakeFiles/offb_node.dir/src/offb_node.cpp.o: /home/luis/2018-phd-luis-caiza/src/offb/src/offb_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/offb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/offb_node.dir/src/offb_node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/offb_node.dir/src/offb_node.cpp.o -c /home/luis/2018-phd-luis-caiza/src/offb/src/offb_node.cpp
 
 CMakeFiles/offb_node.dir/src/offb_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/offb_node.dir/src/offb_node.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/offb/src/offb_node.cpp > CMakeFiles/offb_node.dir/src/offb_node.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/offb/src/offb_node.cpp > CMakeFiles/offb_node.dir/src/offb_node.cpp.i
 
 CMakeFiles/offb_node.dir/src/offb_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/offb_node.dir/src/offb_node.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/offb/src/offb_node.cpp -o CMakeFiles/offb_node.dir/src/offb_node.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/offb/src/offb_node.cpp -o CMakeFiles/offb_node.dir/src/offb_node.cpp.s
 
 CMakeFiles/offb_node.dir/src/offb_node.cpp.o.requires:
 
@@ -88,33 +88,33 @@ offb_node_OBJECTS = \
 # External object files for target offb_node
 offb_node_EXTERNAL_OBJECTS =
 
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: CMakeFiles/offb_node.dir/src/offb_node.cpp.o
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: CMakeFiles/offb_node.dir/build.make
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/librostime.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node: CMakeFiles/offb_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/catkin_ws/build/offb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node"
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: CMakeFiles/offb_node.dir/src/offb_node.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: CMakeFiles/offb_node.dir/build.make
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/librostime.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node: CMakeFiles/offb_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/2018-phd-luis-caiza/build/offb/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/offb_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/offb_node.dir/build: /home/luis/catkin_ws/devel/.private/offb/lib/offb/offb_node
+CMakeFiles/offb_node.dir/build: /home/luis/2018-phd-luis-caiza/devel/.private/offb/lib/offb/offb_node
 
 .PHONY : CMakeFiles/offb_node.dir/build
 
@@ -127,6 +127,6 @@ CMakeFiles/offb_node.dir/clean:
 .PHONY : CMakeFiles/offb_node.dir/clean
 
 CMakeFiles/offb_node.dir/depend:
-	cd /home/luis/catkin_ws/build/offb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/offb /home/luis/catkin_ws/src/offb /home/luis/catkin_ws/build/offb /home/luis/catkin_ws/build/offb /home/luis/catkin_ws/build/offb/CMakeFiles/offb_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/offb && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/offb /home/luis/2018-phd-luis-caiza/src/offb /home/luis/2018-phd-luis-caiza/build/offb /home/luis/2018-phd-luis-caiza/build/offb /home/luis/2018-phd-luis-caiza/build/offb/CMakeFiles/offb_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/offb_node.dir/depend
 

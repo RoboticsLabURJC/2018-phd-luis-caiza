@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/catkin_ws/src/offb/src/offb_node.cpp" "/home/luis/catkin_ws/build/offb/CMakeFiles/offb_node.dir/src/offb_node.cpp.o"
+  "/home/luis/2018-phd-luis-caiza/src/offb/src/offb_node.cpp" "/home/luis/2018-phd-luis-caiza/build/offb/CMakeFiles/offb_node.dir/src/offb_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,8 +16,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/luis/catkin_ws/devel/.private/mavros_msgs/include"
-  "/home/luis/catkin_ws/src/mavros/mavros_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

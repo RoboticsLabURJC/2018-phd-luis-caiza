@@ -1,4 +1,4 @@
-Symlinking /home/luis/catkin_ws/devel/share/offb_velocity/cmake/offb_velocityConfig-version.cmake
-Symlinking /home/luis/catkin_ws/devel/share/offb_velocity/cmake/offb_velocityConfig.cmake
-Symlinking /home/luis/catkin_ws/devel/lib/offb_velocity/node
-Symlinking /home/luis/catkin_ws/devel/lib/pkgconfig/offb_velocity.pc
+Symlinking /home/luis/2018-phd-luis-caiza/devel/share/offb_velocity/cmake/offb_velocityConfig-version.cmake
+Symlinking /home/luis/2018-phd-luis-caiza/devel/share/offb_velocity/cmake/offb_velocityConfig.cmake
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/offb_velocity/node
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/pkgconfig/offb_velocity.pc

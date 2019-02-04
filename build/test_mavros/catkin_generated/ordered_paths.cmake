@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/luis/catkin_ws/devel/.private/mavros/lib;/home/luis/catkin_ws/devel/.private/libmavconn/lib;/opt/ros/kinetic/lib")
+set(ORDERED_PATHS "/home/luis/2018-phd-luis-caiza/devel/.private/mavros/lib;/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib;/opt/ros/kinetic/lib")

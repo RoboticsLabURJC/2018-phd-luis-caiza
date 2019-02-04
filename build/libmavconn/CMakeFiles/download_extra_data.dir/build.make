@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavros/libmavconn
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/libmavconn
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/libmavconn
 
 # Utility rule file for download_extra_data.
 
@@ -67,6 +67,6 @@ CMakeFiles/download_extra_data.dir/clean:
 .PHONY : CMakeFiles/download_extra_data.dir/clean
 
 CMakeFiles/download_extra_data.dir/depend:
-	cd /home/luis/catkin_ws/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/mavros/libmavconn /home/luis/catkin_ws/src/mavros/libmavconn /home/luis/catkin_ws/build/libmavconn /home/luis/catkin_ws/build/libmavconn /home/luis/catkin_ws/build/libmavconn/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn/CMakeFiles/download_extra_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/download_extra_data.dir/depend
 

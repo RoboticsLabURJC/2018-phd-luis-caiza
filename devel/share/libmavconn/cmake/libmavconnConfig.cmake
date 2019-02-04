@@ -1,1 +1,1 @@
-/home/luis/catkin_ws/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake
+/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/share/libmavconn/cmake/libmavconnConfig.cmake

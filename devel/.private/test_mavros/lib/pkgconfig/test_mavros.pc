@@ -1,8 +1,8 @@
-prefix=/home/luis/catkin_ws/devel/.private/test_mavros
+prefix=/home/luis/2018-phd-luis-caiza/devel/.private/test_mavros
 
 Name: test_mavros
 Description: Description of test_mavros
 Version: 0.27.0
 Cflags: -I/usr/include
-Libs: -L/home/luis/catkin_ws/devel/.private/test_mavros/lib /usr/lib/x86_64-linux-gnu/libboost_system.so
+Libs: -L/home/luis/2018-phd-luis-caiza/devel/.private/test_mavros/lib /usr/lib/x86_64-linux-gnu/libboost_system.so
 Requires: mavros mavros_extras roscpp std_msgs geometry_msgs tf2_ros eigen_conversions control_toolbox

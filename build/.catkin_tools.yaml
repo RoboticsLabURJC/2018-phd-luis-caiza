@@ -1,6 +1,6 @@
-devel_space: /home/luis/catkin_ws/devel
+devel_space: /home/luis/2018-phd-luis-caiza/devel
 install: false
-install_space: /home/luis/catkin_ws/install
+install_space: /home/luis/2018-phd-luis-caiza/install
 profile: default
-source_space: /home/luis/catkin_ws/src
-workspace: /home/luis/catkin_ws
+source_space: /home/luis/2018-phd-luis-caiza/src
+workspace: /home/luis/2018-phd-luis-caiza

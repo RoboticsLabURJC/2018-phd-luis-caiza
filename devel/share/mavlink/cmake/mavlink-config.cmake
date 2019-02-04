@@ -11,7 +11,7 @@ set(mavlink2_DIALECTS ASLUAV;ardupilotmega;autoquad;common;icarous;matrixpilot;p
 foreach(lib )
   set(onelib "${lib}-NOTFOUND")
   find_library(onelib ${lib}
-      PATHS "/home/luis/catkin_ws/devel/lib"
+      PATHS "/home/luis/2018-phd-luis-caiza/devel/lib"
     NO_DEFAULT_PATH
     )
   if(NOT onelib)

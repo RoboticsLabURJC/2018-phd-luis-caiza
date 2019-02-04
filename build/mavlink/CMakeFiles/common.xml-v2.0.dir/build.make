@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavlink
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavlink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/mavlink
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/mavlink
 
 # Utility rule file for common.xml-v2.0.
 
@@ -56,11 +56,11 @@ include CMakeFiles/common.xml-v2.0.dir/progress.make
 CMakeFiles/common.xml-v2.0: common-v2.0-cxx-stamp
 
 
-common-v2.0-cxx-stamp: /home/luis/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
-common-v2.0-cxx-stamp: /home/luis/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
-common-v2.0-cxx-stamp: /home/luis/catkin_ws/src/mavlink/pymavlink/tools/mavgen.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luis/catkin_ws/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating common-v2.0-cxx-stamp"
-	/usr/bin/env PYTHONPATH="/home/luis/catkin_ws/src/mavlink:/opt/ros/kinetic/lib/python2.7/dist-packages" /usr/bin/python /home/luis/catkin_ws/src/mavlink/pymavlink/tools/mavgen.py --lang=C++11 --wire-protocol=2.0 --output=include/v2.0 /home/luis/catkin_ws/src/mavlink/message_definitions/v1.0/common.xml
+common-v2.0-cxx-stamp: /home/luis/2018-phd-luis-caiza/src/mavlink/message_definitions/v1.0/common.xml
+common-v2.0-cxx-stamp: /home/luis/2018-phd-luis-caiza/src/mavlink/message_definitions/v1.0/common.xml
+common-v2.0-cxx-stamp: /home/luis/2018-phd-luis-caiza/src/mavlink/pymavlink/tools/mavgen.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavlink/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating common-v2.0-cxx-stamp"
+	/usr/bin/env PYTHONPATH="/home/luis/2018-phd-luis-caiza/src/mavlink:/home/luis/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/kinetic/lib/python2.7/dist-packages" /usr/bin/python /home/luis/2018-phd-luis-caiza/src/mavlink/pymavlink/tools/mavgen.py --lang=C++11 --wire-protocol=2.0 --output=include/v2.0 /home/luis/2018-phd-luis-caiza/src/mavlink/message_definitions/v1.0/common.xml
 	touch common-v2.0-cxx-stamp
 
 common.xml-v2.0: CMakeFiles/common.xml-v2.0
@@ -79,6 +79,6 @@ CMakeFiles/common.xml-v2.0.dir/clean:
 .PHONY : CMakeFiles/common.xml-v2.0.dir/clean
 
 CMakeFiles/common.xml-v2.0.dir/depend:
-	cd /home/luis/catkin_ws/build/mavlink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/mavlink /home/luis/catkin_ws/src/mavlink /home/luis/catkin_ws/build/mavlink /home/luis/catkin_ws/build/mavlink /home/luis/catkin_ws/build/mavlink/CMakeFiles/common.xml-v2.0.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/mavlink && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/mavlink /home/luis/2018-phd-luis-caiza/src/mavlink /home/luis/2018-phd-luis-caiza/build/mavlink /home/luis/2018-phd-luis-caiza/build/mavlink /home/luis/2018-phd-luis-caiza/build/mavlink/CMakeFiles/common.xml-v2.0.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/common.xml-v2.0.dir/depend
 

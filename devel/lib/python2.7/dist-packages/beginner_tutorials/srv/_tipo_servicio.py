@@ -1,1 +1,0 @@
-/home/luis/catkin_ws/devel/.private/beginner_tutorials/lib/python2.7/dist-packages/beginner_tutorials/srv/_tipo_servicio.py

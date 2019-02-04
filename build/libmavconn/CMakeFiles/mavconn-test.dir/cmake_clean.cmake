@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o"
-  "/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test.pdb"
-  "/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test"
+  "/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test.pdb"
+  "/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test"
 )
 
 # Per-language clean rules from dependency scanning.

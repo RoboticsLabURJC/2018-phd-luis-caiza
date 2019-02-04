@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luis/catkin_ws/src/mavros/mavros/src/mavros_node.cpp" "/home/luis/catkin_ws/build/mavros/CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o"
+  "/home/luis/2018-phd-luis-caiza/src/mavros/mavros/src/mavros_node.cpp" "/home/luis/2018-phd-luis-caiza/build/mavros/CMakeFiles/mavros_node.dir/src/mavros_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,11 +17,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/luis/catkin_ws/src/mavros/mavros/include"
-  "/home/luis/catkin_ws/devel/include"
-  "/home/luis/catkin_ws/devel/.private/mavros_msgs/include"
-  "/home/luis/catkin_ws/src/mavros/libmavconn/include"
-  "/home/luis/catkin_ws/src/mavros/mavros_msgs/include"
+  "/home/luis/2018-phd-luis-caiza/src/mavros/mavros/include"
+  "/home/luis/2018-phd-luis-caiza/devel/include"
+  "/home/luis/2018-phd-luis-caiza/devel/.private/mavros_msgs/include"
+  "/home/luis/2018-phd-luis-caiza/src/mavros/libmavconn/include"
+  "/home/luis/2018-phd-luis-caiza/src/mavros/mavros_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
@@ -29,7 +29,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/luis/catkin_ws/build/mavros/CMakeFiles/mavros.dir/DependInfo.cmake"
+  "/home/luis/2018-phd-luis-caiza/build/mavros/CMakeFiles/mavros.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

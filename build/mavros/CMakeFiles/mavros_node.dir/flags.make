@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14
 
 CXX_DEFINES = -DHAVE_SENSOR_MSGS_BATTERYSTATE_MSG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"mavros\"
 
-CXX_INCLUDES = -I/home/luis/catkin_ws/src/mavros/mavros/include -I/home/luis/catkin_ws/devel/include -I/home/luis/catkin_ws/devel/.private/mavros_msgs/include -I/home/luis/catkin_ws/src/mavros/libmavconn/include -I/home/luis/catkin_ws/src/mavros/mavros_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/luis/2018-phd-luis-caiza/src/mavros/mavros/include -I/home/luis/2018-phd-luis-caiza/devel/include -I/home/luis/2018-phd-luis-caiza/devel/.private/mavros_msgs/include -I/home/luis/2018-phd-luis-caiza/src/mavros/libmavconn/include -I/home/luis/2018-phd-luis-caiza/src/mavros/mavros_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

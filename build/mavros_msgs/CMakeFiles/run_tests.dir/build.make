@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavros/mavros_msgs
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavros/mavros_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/mavros_msgs
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/mavros_msgs
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/luis/catkin_ws/build/mavros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/mavros/mavros_msgs /home/luis/catkin_ws/src/mavros/mavros_msgs /home/luis/catkin_ws/build/mavros_msgs /home/luis/catkin_ws/build/mavros_msgs /home/luis/catkin_ws/build/mavros_msgs/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/mavros_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/mavros/mavros_msgs /home/luis/2018-phd-luis-caiza/src/mavros/mavros_msgs /home/luis/2018-phd-luis-caiza/build/mavros_msgs /home/luis/2018-phd-luis-caiza/build/mavros_msgs /home/luis/2018-phd-luis-caiza/build/mavros_msgs/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

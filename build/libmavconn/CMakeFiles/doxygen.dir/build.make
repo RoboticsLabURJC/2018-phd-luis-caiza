@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavros/libmavconn
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/libmavconn
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/libmavconn
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/luis/catkin_ws/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/mavros/libmavconn /home/luis/catkin_ws/src/mavros/libmavconn /home/luis/catkin_ws/build/libmavconn /home/luis/catkin_ws/build/libmavconn /home/luis/catkin_ws/build/libmavconn/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

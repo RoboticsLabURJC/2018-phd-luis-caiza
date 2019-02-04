@@ -1,0 +1,8 @@
+Symlinking /home/luis/2018-phd-luis-caiza/devel/share/mavros/cmake/mavrosConfig.cmake
+Symlinking /home/luis/2018-phd-luis-caiza/devel/share/mavros/cmake/mavrosConfig-version.cmake
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/libmavros_plugins.so
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/libmavros.so
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/mavros/mavros_node
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/mavros/gcs_bridge
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/pkgconfig/mavros.pc
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/python2.7/dist-packages/mavros/__init__.py

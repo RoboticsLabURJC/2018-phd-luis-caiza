@@ -1,8 +1,0 @@
-[  2%] [32m[1mLinking CXX shared library /home/luis/catkin_ws/devel/.private/mavros/lib/libmavros.so[0m
-[ 26%] Built target mavros
-[ 29%] [32m[1mLinking CXX executable /home/luis/catkin_ws/devel/.private/mavros/lib/mavros/mavros_node[0m
-[ 31%] [32m[1mLinking CXX executable /home/luis/catkin_ws/devel/.private/mavros/lib/mavros/gcs_bridge[0m
-[ 34%] [32m[1mLinking CXX shared library /home/luis/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.so[0m
-[ 36%] Built target gcs_bridge
-[ 39%] Built target mavros_node
-[100%] Built target mavros_plugins

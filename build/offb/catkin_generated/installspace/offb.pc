@@ -1,8 +1,8 @@
-prefix=/home/luis/catkin_ws/install
+prefix=/home/luis/2018-phd-luis-caiza/install
 
 Name: offb
 Description: Description of offb
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/luis/catkin_ws/install/lib 
+Libs: -L/home/luis/2018-phd-luis-caiza/install/lib 
 Requires: 

@@ -1,5 +1,0 @@
-The dependencies of the message/service 'beginner_tutorials/mensajeTest' have changed. Please rerun cmake.
-make[2]: *** [CMakeFiles/_beginner_tutorials_generate_messages_check_deps_mensajeTest] Error 1
-make[1]: *** [CMakeFiles/_beginner_tutorials_generate_messages_check_deps_mensajeTest.dir/all] Error 2
-make[1]: *** Se espera a que terminen otras tareas....
-make: *** [all] Error 2

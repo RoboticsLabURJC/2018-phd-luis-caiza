@@ -1,8 +1,8 @@
-prefix=/home/luis/catkin_ws/install
+prefix=/home/luis/2018-phd-luis-caiza/install
 
 Name: libmavconn
 Description: Description of libmavconn
 Version: 0.27.0
-Cflags: -I/home/luis/catkin_ws/install/include -I/usr/include -I/home/luis/catkin_ws/devel/include
-Libs: -L/home/luis/catkin_ws/install/lib -lmavconn /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+Cflags: -I/home/luis/2018-phd-luis-caiza/install/include -I/usr/include -I/home/luis/2018-phd-luis-caiza/devel/include
+Libs: -L/home/luis/2018-phd-luis-caiza/install/lib -lmavconn /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
 Requires: 

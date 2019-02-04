@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavros/libmavconn
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/libmavconn
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/libmavconn
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mavconn-test.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/mavconn-test.dir/progress.make
 include CMakeFiles/mavconn-test.dir/flags.make
 
 CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o: CMakeFiles/mavconn-test.dir/flags.make
-CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o: /home/luis/catkin_ws/src/mavros/libmavconn/test/test_mavconn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/libmavconn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o -c /home/luis/catkin_ws/src/mavros/libmavconn/test/test_mavconn.cpp
+CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn/test/test_mavconn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/libmavconn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn/test/test_mavconn.cpp
 
 CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/libmavconn/test/test_mavconn.cpp > CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn/test/test_mavconn.cpp > CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.i
 
 CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/libmavconn/test/test_mavconn.cpp -o CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn/test/test_mavconn.cpp -o CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.s
 
 CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o.requires:
 
@@ -88,18 +88,18 @@ mavconn__test_OBJECTS = \
 # External object files for target mavconn-test
 mavconn__test_EXTERNAL_OBJECTS =
 
-/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test: CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o
-/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test: CMakeFiles/mavconn-test.dir/build.make
-/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test: gtest/gtest/libgtest.so
-/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test: /home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test: CMakeFiles/mavconn-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/catkin_ws/build/libmavconn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test"
+/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test: CMakeFiles/mavconn-test.dir/test/test_mavconn.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test: CMakeFiles/mavconn-test.dir/build.make
+/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test: gtest/gtest/libgtest.so
+/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test: /home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn.so
+/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test: CMakeFiles/mavconn-test.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/2018-phd-luis-caiza/build/libmavconn/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mavconn-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/mavconn-test.dir/build: /home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn/mavconn-test
+CMakeFiles/mavconn-test.dir/build: /home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn/mavconn-test
 
 .PHONY : CMakeFiles/mavconn-test.dir/build
 
@@ -112,6 +112,6 @@ CMakeFiles/mavconn-test.dir/clean:
 .PHONY : CMakeFiles/mavconn-test.dir/clean
 
 CMakeFiles/mavconn-test.dir/depend:
-	cd /home/luis/catkin_ws/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/mavros/libmavconn /home/luis/catkin_ws/src/mavros/libmavconn /home/luis/catkin_ws/build/libmavconn /home/luis/catkin_ws/build/libmavconn /home/luis/catkin_ws/build/libmavconn/CMakeFiles/mavconn-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/libmavconn && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn /home/luis/2018-phd-luis-caiza/src/mavros/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn /home/luis/2018-phd-luis-caiza/build/libmavconn/CMakeFiles/mavconn-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mavconn-test.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/luis/catkin_ws/src/offb
+# Install script for directory: /home/luis/2018-phd-luis-caiza/src/offb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/luis/catkin_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/luis/2018-phd-luis-caiza/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,94 +44,94 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/_setup_util.py")
+   "/home/luis/2018-phd-luis-caiza/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE PROGRAM FILES "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE PROGRAM FILES "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/env.sh")
+   "/home/luis/2018-phd-luis-caiza/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE PROGRAM FILES "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE PROGRAM FILES "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/setup.bash")
+   "/home/luis/2018-phd-luis-caiza/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE FILE FILES "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/setup.sh")
+   "/home/luis/2018-phd-luis-caiza/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE FILE FILES "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/setup.zsh")
+   "/home/luis/2018-phd-luis-caiza/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE FILE FILES "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/luis/catkin_ws/install/.rosinstall")
+   "/home/luis/2018-phd-luis-caiza/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/luis/catkin_ws/install" TYPE FILE FILES "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/luis/2018-phd-luis-caiza/install" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/offb.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/offb.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/offb/cmake" TYPE FILE FILES
-    "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/offbConfig.cmake"
-    "/home/luis/catkin_ws/build/offb/catkin_generated/installspace/offbConfig-version.cmake"
+    "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/offbConfig.cmake"
+    "/home/luis/2018-phd-luis-caiza/build/offb/catkin_generated/installspace/offbConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/offb" TYPE FILE FILES "/home/luis/catkin_ws/src/offb/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/offb" TYPE FILE FILES "/home/luis/2018-phd-luis-caiza/src/offb/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/luis/catkin_ws/build/offb/gtest/cmake_install.cmake")
+  include("/home/luis/2018-phd-luis-caiza/build/offb/gtest/cmake_install.cmake")
 
 endif()
 
@@ -143,5 +143,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/luis/catkin_ws/build/offb/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/luis/2018-phd-luis-caiza/build/offb/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

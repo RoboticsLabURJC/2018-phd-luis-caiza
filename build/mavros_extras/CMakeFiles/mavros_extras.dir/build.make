@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavros/mavros_extras
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/mavros_extras
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/mavros_extras
 
 # Include any dependencies generated for this target.
 include CMakeFiles/mavros_extras.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/mavros_extras.dir/progress.make
 include CMakeFiles/mavros_extras.dir/flags.make
 
 CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/adsb.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/adsb.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp > CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/adsb.cpp > CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/adsb.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/adsb.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o.provides.build: CMakeFiles/m
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp > CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp > CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/cam_imu_sync.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o.provides.build: CMak
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/debug_value.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/debug_value.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp > CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/debug_value.cpp > CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/debug_value.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/debug_value.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o.provides.build: CMake
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp > CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp > CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/distance_sensor.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o.provides.build: C
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/fake_gps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/fake_gps.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp > CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/fake_gps.cpp > CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/fake_gps.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/fake_gps.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp > CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp > CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/gps_rtk.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/log_transfer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/log_transfer.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp > CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/log_transfer.cpp > CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/log_transfer.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/log_transfer.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o.provides.build: CMak
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp > CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp > CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/mocap_pose_estimate.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o.provides.buil
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp > CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp > CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/obstacle_distance.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o.provides.build:
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/odom.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/odom.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/odom.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/odom.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/odom.cpp > CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/odom.cpp > CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/odom.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/odom.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o.requires:
 
@@ -298,17 +298,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o.provides.build: CMakeFiles/m
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/px4flow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/px4flow.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp > CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/px4flow.cpp > CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/px4flow.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/px4flow.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o.requires:
 
@@ -322,17 +322,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o.provides.build: CMakeFile
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/rangefinder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/rangefinder.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp > CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/rangefinder.cpp > CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/rangefinder.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/rangefinder.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o.requires:
 
@@ -346,17 +346,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o.provides.build: CMake
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/trajectory.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/trajectory.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp > CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/trajectory.cpp > CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/trajectory.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/trajectory.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o.requires:
 
@@ -370,17 +370,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vibration.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vibration.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp > CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vibration.cpp > CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vibration.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vibration.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o.requires:
 
@@ -394,17 +394,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp > CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp > CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vision_pose_estimate.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o.requires:
 
@@ -418,17 +418,17 @@ CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o.provides.bui
 
 
 CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o: CMakeFiles/mavros_extras.dir/flags.make
-CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o: /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o -c /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp
+CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o: /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o -c /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp
 
 CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp > CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp > CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.i
 
 CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/catkin_ws/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/plugins/vision_speed_estimate.cpp -o CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.s
 
 CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o.requires:
 
@@ -463,131 +463,131 @@ mavros_extras_OBJECTS = \
 # External object files for target mavros_extras
 mavros_extras_EXTERNAL_OBJECTS =
 
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/build.make
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/libPocoFoundation.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroslib.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librospack.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf2.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librostime.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/libPocoFoundation.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroslib.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librospack.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liburdf.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf2.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librostime.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/catkin_ws/devel/.private/mavros/lib/libmavros.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/libPocoFoundation.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroslib.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librospack.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/catkin_ws/devel/.private/libmavconn/lib/libmavconn.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libeigen_conversions.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liburdf.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf.so
-/home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/catkin_ws/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library /home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so"
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/adsb.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/cam_imu_sync.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/debug_value.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/distance_sensor.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/fake_gps.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/gps_rtk.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/log_transfer.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/mocap_pose_estimate.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/obstacle_distance.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/odom.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/px4flow.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/rangefinder.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/trajectory.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/vibration.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/vision_pose_estimate.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/src/plugins/vision_speed_estimate.cpp.o
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/build.make
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/2018-phd-luis-caiza/devel/.private/mavros/lib/libmavros.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/libPocoFoundation.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroslib.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librospack.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf2.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librostime.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/2018-phd-luis-caiza/devel/.private/mavros/lib/libmavros.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/libPocoFoundation.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroslib.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librospack.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liburdf.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf2.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librostime.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/2018-phd-luis-caiza/devel/.private/mavros/lib/libmavros.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libGeographic.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/libPocoFoundation.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libroslib.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librospack.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /home/luis/2018-phd-luis-caiza/devel/.private/libmavconn/lib/libmavconn.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libeigen_conversions.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liborocos-kdl.so.1.3.0
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/liburdf.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_sensor.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model_state.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_model.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /usr/lib/x86_64-linux-gnu/liburdfdom_world.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/librosconsole_bridge.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: /opt/ros/kinetic/lib/libtf.so
+/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so: CMakeFiles/mavros_extras.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX shared library /home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/mavros_extras.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/mavros_extras.dir/build: /home/luis/catkin_ws/devel/.private/mavros_extras/lib/libmavros_extras.so
+CMakeFiles/mavros_extras.dir/build: /home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/libmavros_extras.so
 
 .PHONY : CMakeFiles/mavros_extras.dir/build
 
@@ -615,6 +615,6 @@ CMakeFiles/mavros_extras.dir/clean:
 .PHONY : CMakeFiles/mavros_extras.dir/clean
 
 CMakeFiles/mavros_extras.dir/depend:
-	cd /home/luis/catkin_ws/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/mavros/mavros_extras /home/luis/catkin_ws/src/mavros/mavros_extras /home/luis/catkin_ws/build/mavros_extras /home/luis/catkin_ws/build/mavros_extras /home/luis/catkin_ws/build/mavros_extras/CMakeFiles/mavros_extras.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/mavros_extras && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras /home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras /home/luis/2018-phd-luis-caiza/build/mavros_extras /home/luis/2018-phd-luis-caiza/build/mavros_extras /home/luis/2018-phd-luis-caiza/build/mavros_extras/CMakeFiles/mavros_extras.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/mavros_extras.dir/depend
 

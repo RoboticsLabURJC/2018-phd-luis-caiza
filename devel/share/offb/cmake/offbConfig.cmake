@@ -1,1 +1,1 @@
-/home/luis/catkin_ws/devel/.private/offb/share/offb/cmake/offbConfig.cmake
+/home/luis/2018-phd-luis-caiza/devel/.private/offb/share/offb/cmake/offbConfig.cmake

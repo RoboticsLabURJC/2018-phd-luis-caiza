@@ -1,0 +1,6 @@
+Symlinking /home/luis/2018-phd-luis-caiza/devel/share/mavros_extras/cmake/mavros_extrasConfig-version.cmake
+Symlinking /home/luis/2018-phd-luis-caiza/devel/share/mavros_extras/cmake/mavros_extrasConfig.cmake
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/libmavros_extras.so
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/mavros_extras/copter_visualization
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/mavros_extras/servo_state_publisher
+Symlinking /home/luis/2018-phd-luis-caiza/devel/lib/pkgconfig/mavros_extras.pc

@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"test_mavros\" -Dmavros_sitl_test_EXPORTS
 
-CXX_INCLUDES = -I/home/luis/catkin_ws/src/mavros/test_mavros/include -I/usr/include/eigen3 -I/home/luis/catkin_ws/devel/include -I/home/luis/catkin_ws/devel/.private/mavros_msgs/include -I/home/luis/catkin_ws/src/mavros/libmavconn/include -I/home/luis/catkin_ws/src/mavros/mavros_msgs/include -I/home/luis/catkin_ws/src/mavros/mavros/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/luis/2018-phd-luis-caiza/src/mavros/test_mavros/include -I/usr/include/eigen3 -I/home/luis/2018-phd-luis-caiza/devel/include -I/home/luis/2018-phd-luis-caiza/devel/.private/mavros_msgs/include -I/home/luis/2018-phd-luis-caiza/src/mavros/libmavconn/include -I/home/luis/2018-phd-luis-caiza/src/mavros/mavros_msgs/include -I/home/luis/2018-phd-luis-caiza/src/mavros/mavros/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

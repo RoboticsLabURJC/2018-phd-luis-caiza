@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavros/mavros
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavros/mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/mavros
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/mavros
 
 # Utility rule file for clean_test_results_mavros.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/mavros
 include CMakeFiles/clean_test_results_mavros.dir/progress.make
 
 CMakeFiles/clean_test_results_mavros:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/luis/catkin_ws/build/mavros/test_results/mavros
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/luis/2018-phd-luis-caiza/build/mavros/test_results/mavros
 
 clean_test_results_mavros: CMakeFiles/clean_test_results_mavros
 clean_test_results_mavros: CMakeFiles/clean_test_results_mavros.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results_mavros.dir/clean:
 .PHONY : CMakeFiles/clean_test_results_mavros.dir/clean
 
 CMakeFiles/clean_test_results_mavros.dir/depend:
-	cd /home/luis/catkin_ws/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/catkin_ws/src/mavros/mavros /home/luis/catkin_ws/src/mavros/mavros /home/luis/catkin_ws/build/mavros /home/luis/catkin_ws/build/mavros /home/luis/catkin_ws/build/mavros/CMakeFiles/clean_test_results_mavros.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/luis/2018-phd-luis-caiza/build/mavros && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/luis/2018-phd-luis-caiza/src/mavros/mavros /home/luis/2018-phd-luis-caiza/src/mavros/mavros /home/luis/2018-phd-luis-caiza/build/mavros /home/luis/2018-phd-luis-caiza/build/mavros /home/luis/2018-phd-luis-caiza/build/mavros/CMakeFiles/clean_test_results_mavros.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results_mavros.dir/depend
 

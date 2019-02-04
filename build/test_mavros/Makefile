@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/luis/catkin_ws/src/mavros/test_mavros
+CMAKE_SOURCE_DIR = /home/luis/2018-phd-luis-caiza/src/mavros/test_mavros
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/luis/catkin_ws/build/test_mavros
+CMAKE_BINARY_DIR = /home/luis/2018-phd-luis-caiza/build/test_mavros
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/catkin_ws/build/test_mavros/CMakeFiles /home/luis/catkin_ws/build/test_mavros/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/2018-phd-luis-caiza/build/test_mavros/CMakeFiles /home/luis/2018-phd-luis-caiza/build/test_mavros/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/catkin_ws/build/test_mavros/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/luis/2018-phd-luis-caiza/build/test_mavros/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,5 +1,5 @@
-prefix=/home/luis/catkin_ws/devel
-exec_prefix=/home/luis/catkin_ws/devel
+prefix=/home/luis/2018-phd-luis-caiza/devel
+exec_prefix=/home/luis/2018-phd-luis-caiza/devel
 includedir=${prefix}/include
 
 Name: mavlink

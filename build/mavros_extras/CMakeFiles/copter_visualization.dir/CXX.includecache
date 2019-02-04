@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/luis/catkin_ws/src/mavros/mavros_extras/src/copter_visualization.cpp
+/home/luis/2018-phd-luis-caiza/src/mavros/mavros_extras/src/copter_visualization.cpp
 vector
 -
 tf/tf.h

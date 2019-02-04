@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/servo_state_publisher.dir/src/servo_state_publisher.cpp.o"
-  "/home/luis/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher.pdb"
-  "/home/luis/catkin_ws/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher"
+  "/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher.pdb"
+  "/home/luis/2018-phd-luis-caiza/devel/.private/mavros_extras/lib/mavros_extras/servo_state_publisher"
 )
 
 # Per-language clean rules from dependency scanning.

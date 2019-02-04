@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libmavros-quaternion-utils-test.dir/test/test_quaternion_utils.cpp.o"
-  "/home/luis/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-quaternion-utils-test.pdb"
-  "/home/luis/catkin_ws/devel/.private/mavros/lib/mavros/libmavros-quaternion-utils-test"
+  "/home/luis/2018-phd-luis-caiza/devel/.private/mavros/lib/mavros/libmavros-quaternion-utils-test.pdb"
+  "/home/luis/2018-phd-luis-caiza/devel/.private/mavros/lib/mavros/libmavros-quaternion-utils-test"
 )
 
 # Per-language clean rules from dependency scanning.
