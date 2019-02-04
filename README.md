@@ -1,7 +1,7 @@
 # 2018-phd-luis-caiza
 # ROS+GAZEBO+QGROUNDCONTROL
 In this case, QGroundControl is used to control the drone. Two flight modes are tested: Hold and Offboard. Offboard mode is activated either by console or by QGroundControl interface. See the results in the link
-[![ROS GAZEBO QGROUNDCONTROL](http://img.youtube.com/vi/QP23CB4dT1Q&t=282s/0.jpg)](https://www.youtube.com/watch?v=QP23CB4dT1Q&t=282s "ROS GAZEBO QGROUNDCONTROL")
+[![ROS GAZEBO QGROUNDCONTROL](http://img.youtube.com/vi/watch?v=QP23CB4dT1Q&t=282s/0.jpg)](https://www.youtube.com/watch?v=QP23CB4dT1Q&t=282s "ROS GAZEBO QGROUNDCONTROL")
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=QP23CB4dT1Q&t=282s
 " target="_blank"><img src="http://img.youtube.com/vi/QP23CB4dT1Q&t=282s/0.jpg" 
