@@ -1,4 +1,7 @@
 # 2018-phd-luis-caiza
+# Testing rqt_image_view
+A drone with a camera simulated on Gazebo; rqt_image_view used for displaying images. 
+[![rqt_image_view](http://img.youtube.com/vi/mj7I2wLfMrw/0.jpg)](http://www.youtube.com/watch?v=mj7I2wLfMrw)
 # ROS+GAZEBO+QGROUNDCONTROL
 In this case, QGroundControl is used to control the drone. Two flight modes are tested: Hold and Offboard. Offboard mode is activated either by console or by QGroundControl interface. See the results in the link
 [![ROS+GAZEBO+QGROUNDCONTROL](http://img.youtube.com/vi/QP23CB4dT1Q&t=282s/0.jpg)](http://www.youtube.com/watch?v=QP23CB4dT1Q&t=282s)
