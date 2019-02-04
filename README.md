@@ -12,6 +12,5 @@ we can see how to launch Gazebo, PX4 and the node.
 [![MAVROS Offboard control example](http://img.youtube.com/vi/FIZnrFnFLJk/0.jpg)](http://www.youtube.com/watch?v=FIZnrFnFLJk)
 
 # Installing ROS+GAZEBO+MAVROS+PX4
-In this link https://www.youtube.com/watch?v=n_tRhM0I5V0 I show you how can we install ROS, Gazebo 7, MAVROS and  
-PX4 in order to fly drones in  a simulator (Gacebo 7).
+I show you how can we install ROS, Gazebo 7, MAVROS and  PX4 in order to fly drones in  a simulator (Gacebo 7).
 [![MAVROS Offboard control example](http://img.youtube.com/vi/n_tRhM0I5V0/0.jpg)](http://www.youtube.com/watch?v=n_tRhM0I5V0)
