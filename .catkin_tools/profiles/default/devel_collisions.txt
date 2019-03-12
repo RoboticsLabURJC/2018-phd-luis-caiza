@@ -253,6 +253,7 @@
 /home/luis/2018-phd-luis-caiza/devel/include/mavros_msgs/FileClose.h 1
 /home/luis/2018-phd-luis-caiza/devel/share/gennodejs/ros/mavros_msgs/msg/Trajectory.js 1
 /home/luis/2018-phd-luis-caiza/devel/include/mavros_msgs/HilActuatorControls.h 1
+/home/luis/2018-phd-luis-caiza/devel/share/common-lisp/ros/mavros_msgs/msg/_package_CamIMUStamp.lisp 1
 /home/luis/2018-phd-luis-caiza/devel/share/roseus/ros/mavros_msgs/msg/DebugValue.l 1
 /home/luis/2018-phd-luis-caiza/devel/lib/python2.7/dist-packages/mavros_msgs/srv/_CommandTOL.py 1
 /home/luis/2018-phd-luis-caiza/devel/lib/python2.7/dist-packages/mavros_msgs/msg/_Waypoint.py 1
@@ -333,7 +334,6 @@
 /home/luis/2018-phd-luis-caiza/devel/share/roseus/ros/mavros_msgs/srv/CommandTOL.l 1
 /home/luis/2018-phd-luis-caiza/devel/share/common-lisp/ros/mavros_msgs/srv/_package_ParamSet.lisp 1
 /home/luis/2018-phd-luis-caiza/devel/share/roseus/ros/mavros_msgs/msg/HilGPS.l 1
-/home/luis/2018-phd-luis-caiza/devel/share/gennodejs/ros/mavros_msgs/msg/Mavlink.js 1
 /home/luis/2018-phd-luis-caiza/devel/include/mavros_msgs/WaypointPullRequest.h 1
 /home/luis/2018-phd-luis-caiza/devel/share/common-lisp/ros/mavros_msgs/srv/_package_FileTruncate.lisp 1
 /home/luis/2018-phd-luis-caiza/devel/share/common-lisp/ros/mavros_msgs/msg/_package_Vibration.lisp 1
@@ -402,7 +402,7 @@
 /home/luis/2018-phd-luis-caiza/devel/share/roseus/ros/mavros_msgs/msg/TimesyncStatus.l 1
 /home/luis/2018-phd-luis-caiza/devel/lib/python2.7/dist-packages/mavros_msgs/srv/_WaypointPush.py 1
 /home/luis/2018-phd-luis-caiza/devel/lib/python2.7/dist-packages/mavros_msgs/msg/_FileEntry.py 1
-/home/luis/2018-phd-luis-caiza/devel/share/common-lisp/ros/mavros_msgs/msg/_package_CamIMUStamp.lisp 1
+/home/luis/2018-phd-luis-caiza/devel/share/gennodejs/ros/mavros_msgs/msg/Mavlink.js 1
 /home/luis/2018-phd-luis-caiza/devel/include/mavros_msgs/StreamRateResponse.h 1
 /home/luis/2018-phd-luis-caiza/devel/lib/python2.7/dist-packages/mavros_msgs/msg/_ExtendedState.py 1
 /home/luis/2018-phd-luis-caiza/devel/share/gennodejs/ros/mavros_msgs/srv/LogRequestEnd.js 1

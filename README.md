@@ -1,4 +1,6 @@
 # 2018-phd-luis-caiza
+# Follow road
+[![rqt_image_view](http://img.youtube.com/vi/vxJ0LD2OZ5w/0.jpg)](http://www.youtube.com/watch?v=vxJ0LD2OZ5w)
 # Testing rqt_image_view
 A drone with a camera simulated on Gazebo; rqt_image_view used for displaying images. 
 [![rqt_image_view](http://img.youtube.com/vi/mj7I2wLfMrw/0.jpg)](http://www.youtube.com/watch?v=mj7I2wLfMrw)
