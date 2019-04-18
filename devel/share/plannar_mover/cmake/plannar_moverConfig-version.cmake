@@ -1,0 +1,1 @@
+/home/luis/2018-phd-luis-caiza/devel/.private/plannar_mover/share/plannar_mover/cmake/plannar_moverConfig-version.cmake
