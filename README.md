@@ -1,5 +1,8 @@
 # 2018-phd-luis-caiza
 # Follow a ball
+In this video, we can see how a iris drone follow a ball moving in 3D. 
+[![rqt_image_view](http://img.youtube.com/vi/o_pl_DD5LU0/0.jpg)](http://www.youtube.com/watch?v=o_pl_DD5LU0)
+# Follow a ball
 In this video, we can see how a iris drone follow a ball moving in 2D. 
 [![rqt_image_view](http://img.youtube.com/vi/SD_nXsinSxg/0.jpg)](http://www.youtube.com/watch?v=SD_nXsinSxg)
 # Follow road
